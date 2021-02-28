@@ -1,4 +1,4 @@
-# Mongo-Auth
+# Mongo-Auth-JWT
 
 This is a sample project that uses Mongoose and MongoDB to create users. This project illustrates how to use JWT's to authorize user access to protected routes.
 
