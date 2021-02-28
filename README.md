@@ -16,8 +16,6 @@ With these routes, new users can sign up, login, and view a protected route, the
 
 <br/>
 
----
-
 # Getting Started
 
 ### Create a new MongoDB cluster
@@ -34,11 +32,12 @@ MONGO_URL = <YourMongodbURL>
 SECRET_JWT_KEY = <AnySuperSecretKey>
 ```
 
-### Start the dev server:
+### Install dependencies and start the dev server:
 
 In your terminal:
 
 ```
+npm install
 npm run dev
 ```
 
@@ -64,9 +63,9 @@ Next, you can test this JWT to ensure it is working and used in the `Auth` proce
 token: <yourJWT>
 ```
 
-Now, make a `GET` request to the following endpoint: `http://localhost:4002/profile`. You should see the full user returned.
+Now, make a `GET` request to the following endpoint: `http://localhost:4002/profile`. The full user should be returned.
 
----
+<br/>
 
 # The Project Structure
 
