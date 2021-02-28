@@ -12,7 +12,7 @@ With these routes, new users can sign up, login, and view a protected route, the
 
 ### How It Works:
 
-![User Authentication Flow](./README-imgs/User-Auth-Flow-2.jpg)
+![User Authentication Flow](./README-imgs/User-Auth-Flow-3.jpg)
 
 <br/>
 
